@@ -28,7 +28,3 @@ jobs:
         source: https://cianosullivan.me/
         destination: screenshot.png
         full-page: true
-    - name: Test for public javascript library vulnerabilities 
-      uses: lirantal/is-website-vulnerable@master
-      with:
-        scan-url: "https://cianosullivan.me"
